@@ -1,0 +1,16 @@
+
+- The Java platform has two components
+	- The Java Vrtual Machine(JVM)
+	- The Java Application Programming Interface (API) - bunch of libraries we get to use
+	- can run groovy, scala, Clojure that run on the java platform
+	- The JVM and the Java API together make up the Java Runtime Environment (JRE)
+- In Java applications are both compiled and interpreted
+	-The Java compiles your application source code to an intermediate language that is interpreted by the JVM
+	- Source code -> compiler -> intermediate lang (byte code) -> interpreted by JVM
+	- Bytecode is not machine code that gets executed directly
+	- Instead, the JVM translates (iinterprets) the bytecode into machine code, which then gets run by the actual platform
+- In other words bytecode is 2like machine code" for the JVM
+	- The bytecode is platform independent and can therefore by interpreted by any JVM
+	- JVMs are built specific to partcular platforms (hardware and OS)
+	
+Editions
