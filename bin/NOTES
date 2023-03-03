@@ -1,11 +1,11 @@
-
+The Java Platform
 - The Java platform has two components
 	- The Java Vrtual Machine(JVM)
 	- The Java Application Programming Interface (API) - bunch of libraries we get to use
 	- can run groovy, scala, Clojure that run on the java platform
 	- The JVM and the Java API together make up the Java Runtime Environment (JRE)
 - In Java applications are both compiled and interpreted
-	-The Java compiles your application source code to an intermediate language that is interpreted by the JVM
+	- The Java compiles your application source code to an intermediate language that is interpreted by the JVM
 	- Source code -> compiler -> intermediate lang (byte code) -> interpreted by JVM
 	- Bytecode is not machine code that gets executed directly
 	- Instead, the JVM translates (iinterprets) the bytecode into machine code, which then gets run by the actual platform
@@ -13,4 +13,31 @@
 	- The bytecode is platform independent and can therefore by interpreted by any JVM
 	- JVMs are built specific to partcular platforms (hardware and OS)
 	
-Editions
+Editions and Version of Java
+- Unfortunately, one of the more complex aspects of Java is that there is no single Java platform
+	- As you have already learned, there are many different JVMs. A JVM is created for each hardware/OS platform
+	- In addition, there are several "editions" of Java. 
+	- Depenedant on which addition of Java you have downloaded, different libraries will be available in the API
+	- Three primary editions : Java EE, Java SE, and Java ME
+	- Java Enterprise Edition - super set of Java for distribution applications for web 
+	- Java Standard Edition - regular features to write applications
+	- Java Micro Edition - resurgence with IoT devices
+	- JavaFX - for creating GUIs - after edition 8 is now bundled with Java SE 
+	- Each of these editions targets different kinds of applications running on different types of hardware
+- Started as JDK - Java Development Environment
+- Changed in 1998 to J2SE
+- Java SE 8 - 2008
+
+Java Development Kit (JDK)
+- Often installed into c - program files- java (- JVM - JDK)
+	- 2nd folder JRE - Api and jdk
+- Inside - Home - bin- All of our tools exist in bin directory e.g Java, java c, java doc etc
+- db - simple data base
+- include - advanced programs in other languages like c++
+- jre - allow us to run programs
+- lib - where java api lives
+- man - manual files for the different java tools
+- src.zip - all of source code for jave se 8 api
+
+First Java Programme
+- 
